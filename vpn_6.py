@@ -99,7 +99,6 @@ class App:
                 print(command)
                 exec(command)
 
-
 class VPN(App):
     '''Класс для запуска и работы с VPN-ами'''
 
@@ -121,6 +120,8 @@ class VPN(App):
                 break
             elif self.is_work=='0':
                 self.is_work=False
+                break
+            elif self.is_work:
                 break
             else:
                 time.sleep(0.5)
@@ -254,8 +255,10 @@ for vpn_name in vpn_list:
         testing.roll(0,22)
         if not testing.is_similar('result_page.png', t=1, box=(100,1290,250,1350)):
             device.input_keyevent(123)
-            device.input_swipe(350, 100, 350, 1080, 500)
-        y = 930
+            testing.roll(0,-17)
+            y=885
+        else:
+            y = 930
         for res in vpn.result:
             if res:
                 testing.tap(115, y)  # Простановка галочек в выборе работоспособности

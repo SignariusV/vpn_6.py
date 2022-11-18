@@ -20,4 +20,4 @@ com.security.xvpn.z35kb/.SplashActivity
 de.mobileconcepts.cyberghost/.view.app.AppActivity
 com.ixolit.ipvanish/.presentation.features.launch.SplashActivity
 net.openvpn.openvpn/net.openvpn.unified.MainActivity
-ufovpn.free.unblock.proxy.vpn/.home.ui.WelcomeActivity
+com.fast.ufovpn.proxy/.ui.SplashActivity

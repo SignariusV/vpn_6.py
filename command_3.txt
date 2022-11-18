@@ -1,1 +1,16 @@
 time.sleep(4)->device.input_tap(320,1235)->print('BROWSEC')
+
+
+
+
+
+
+
+print('Signal Secure')
+
+
+
+
+
+
+print('VPN Master')

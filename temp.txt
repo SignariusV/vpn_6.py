@@ -1,7 +1,0 @@
-tor проверить занесение результатов
-windscribe занесение результатов
-browsec res
-
-atlas input result
-psiphon start
-quark start
