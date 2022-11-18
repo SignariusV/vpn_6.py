@@ -1,0 +1,2 @@
+time.sleep(12)->device.input_tap(360,475)->print('SuperVPN')
+time.sleep(6)->device.input_tap(360,790)->print('Tachyon')
