@@ -1,14 +1,14 @@
 time.sleep(4)->device.input_tap(320,1235)->print('BROWSEC')
-
-
-
-
-
-
-
-print('Signal Secure')
-
-
+time.sleep(6)->device.input_tap(360,1010)->print('Daily VPN')
+time.sleep(5)->device.input_tap(360,1150)->time.sleep(15)->device.input_tap(360,930)->time.sleep(15)->device.input_tap(480,940)->time.sleep(1)->device.input_tap(360,430)->time.sleep(1)->device.input_tap(360,1050)->time.sleep(15)->vpn.is_work='0'->print('Goat VPN')
+print('Hotspot Shield')
+time.sleep(5)->device.input_tap(360,625)->print('Kivi VPN')
+print('Phone Guard')
+time.sleep(4)->device.input_tap(360,1420)->time.sleep(2)->device.input_tap(360,1420)->print('Planet VPN')
+time.sleep(16)->device.input_tap(360,540)->time.sleep(3)->vpn.is_work='0'->print('Secure Tunnel')
+time.sleep(10)->print('Signal Secure')
+time.sleep(10)->device.input_tap(360,430)->print('Super VPN')
+time.sleep(4)->device.input_tap(360,750)->print('SuperNet VPN')
 
 
 

@@ -179,9 +179,9 @@ class Group:
                 return command_line.split('->')
             return []
 
-
+# screen('face_app_1_1.png')
 # input()
-vpn_list = Group(1)
+vpn_list = Group(3)
 for vpn_name in vpn_list:
     vpn = VPN(vpn_name)
     vpn.start()
